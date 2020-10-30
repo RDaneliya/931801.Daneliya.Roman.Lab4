@@ -29,6 +29,7 @@ footer.main-footer {
 footer.main-footer > p {
   color: #d0d0d0;
   margin: 0;
+  padding: 5px 0 5px 0;
 }
 
 nav {
@@ -185,7 +186,7 @@ header.post-header > p {
     padding: 0;
   }
 
-  section{
+  section {
     margin: 0 auto;
   }
 
@@ -195,13 +196,16 @@ header.post-header > p {
     flex-wrap: wrap;
     padding: 0 30px 0 30px;
   }
-  li{
+
+  li {
     display: inline-block;
   }
-  li > a{
+
+  li > a {
     white-space: nowrap;
   }
-  li > a > br{
+
+  li > a > br {
     display: none;
   }
 
