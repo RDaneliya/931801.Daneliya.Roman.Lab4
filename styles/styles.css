@@ -116,6 +116,11 @@ article.post > .content {
   width: 350px;
 }
 
+p.content::selection{
+  color: green;
+  background: #E0E4EA;
+}
+
 footer.like-comm {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
